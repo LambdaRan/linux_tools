@@ -1,15 +1,29 @@
 {
+    "env" : {
+        "myDefaultIncludePath": [
+            "${workspaceFolder}",
+            "${workspaceFolder}/include",
+            "/usr/include/**",
+            "/usr/local/include/**"
+        ]
+    },
     "configurations": [
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${myDefaultIncludePath}"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
+            "cppStandard": "c++11",
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [ 
+                    "${workspaceFolder}", 
+                    "myDefaultIncludePath"  
+                ]
+            }
         }
     ],
     "version": 4

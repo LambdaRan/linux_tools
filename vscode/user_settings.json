@@ -10,6 +10,12 @@
     "clang.cflags": ["-std=c11"],
     "clang.cxxflags": ["-std=c++11"],
 
-    "cppcheck.cppcheckPath": "/usr/bin/cppcheck"
-
+    "cppcheck.cppcheckPath": "/usr/bin/cppcheck",
+    "cppcheck.standard": [
+        "posix",
+        "c99",
+        "c11",
+        "c++03",
+        "c++11"
+      ],
 }
