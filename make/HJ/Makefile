@@ -14,37 +14,19 @@ INSTALL_PATH = .
 
 SRCPATH = $(TOPDIR)
 SRCSUBDIR = osal/inc 	\
-	osal/src 	\
-	drv 			\
 	http 			\
 	json 			\
 	common 			\
 	app 			\
-	app/device 			\
-	app/netapp 			\
-	app/config 			\
-	app/db 			\
-	app/netRTSP/Source \
-	app/netRTSP/Source/Client \
-	app/netRTSP/Inc 	\
-	media				\
-	ftp					\
+
 
 INCDIR = $(TOPDIR)/osal/inc 	\
-	 $(TOPDIR)/drv 			\
 	 $(TOPDIR)/http 			\
 	 $(TOPDIR)/json 			\
 	 $(TOPDIR)/common 			\
 	 $(TOPDIR)/app 			\
 	 $(TOPDIR)/app/device 			\
-	 $(TOPDIR)/app/netapp 			\
-	 $(TOPDIR)/app/config 			\
-	 $(TOPDIR)/app/db 			\
-	 $(TOPDIR)/app/netRTSP/Source \
-	 $(TOPDIR)/app/netRTSP/Source/Client \
-	 $(TOPDIR)/app/netRTSP/Inc 	\
-	 $(TOPDIR)/media		 	\
-	 $(TOPDIR)/ftp		 	\
+
 
 
 
